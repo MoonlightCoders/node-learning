@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb://localhost:27017/'
+const url = 'mongodb+srv://users:xW4x2LuhBBEw6Rv@cluster0.qtntj.mongodb.net/'
 const dbName = 'learning'
 
 const dbConnection =  mongoose.createConnection(url + dbName, {
